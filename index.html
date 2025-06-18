@@ -71,7 +71,13 @@
             <div class="form-row">
               <div class="form-group">
                 <div class="icon-wrapper">
-                  <span class="card-icon">💳</span>
+                  <span class="card-icon"
+                    ><img
+                      src="assets/card.png"
+                      alt="card"
+                      width="25"
+                      height="17"
+                  /></span>
                 </div>
                 <span class="label">결제수단선택</span>
                 <select class="form-select">
@@ -83,20 +89,28 @@
             <div class="form-row">
               <div class="form-group">
                 <div class="icon-wrapper">
-                  <span class="coin-icon">🪙</span>
+                  <span class="coin-icon"
+                    ><img
+                      src="assets/coin.png"
+                      alt="coin"
+                      width="25"
+                      height="17"
+                  /></span>
                 </div>
                 <span class="label">결제금액</span>
-                <input
-                  type="text"
-                  class="form-input"
-                  placeholder="50,000원 이상 입력하세요."
-                />
+                <div class="input-wrapper">
+                  <input
+                    type="text"
+                    class="form-input"
+                    placeholder="50,000원 이상 입력하세요."
+                  />
+                  <p class="payment-note">
+                    신용카드 결제가 안될 경우 수기 결제 및 빌링 결제를 이용해
+                    주세요.
+                  </p>
+                </div>
               </div>
             </div>
-
-            <p class="payment-note">
-              신용카드 결제가 안될 경우 수기 결제 및 빌링 결제를 이용해 주세요.
-            </p>
           </div>
 
           <!-- 경고 메시지 -->

@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
             position: fixed;
             top: 20px;
             right: 20px;
-            background-color: #2e8b57;
+            background-color: #007852;
             color: white;
             padding: 12px 20px;
             border-radius: 8px;
