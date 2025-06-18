@@ -220,11 +220,25 @@ body {
 
 .form-select {
   flex: 1;
-  padding: 12px 15px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  padding: 12px 40px 12px 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
   font-size: 14px;
-  background-color: #f9f9f9;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+  background-position: right 12px center;
+  background-repeat: no-repeat;
+  background-size: 16px;
+  appearance: none;
+  cursor: pointer;
+  color: #333;
+  font-weight: 400;
+}
+
+.form-select:focus {
+  outline: none;
+  border-color: #007852;
+  box-shadow: 0 0 0 3px rgba(0, 120, 82, 0.1);
 }
 
 .form-input {
